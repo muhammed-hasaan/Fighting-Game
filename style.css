@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    .bgimg{
+        background-image: url(images/guiltygearxx-stage-hell.gif);
+        background-size:cover;
+        background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    }
+    .playerName{
+      display: flex;
+      justify-content: space-between;
+    }
+    .playerName .player{
+  font-size: 40px;
+  color:#fff;
+  font-style: oblique;
+    }
+    
+  
+    .bgimg .player1{
+        position: absolute;
+        left: 5px;
+        bottom: 5px;
+        
+    }
+    .bgimg .player2{
+        position: absolute;
+        right: 1px;
+        bottom: 5px;
+      
+    }
+    
+    #header{
+        display: flex;
+    justify-content: space-between;
+    }
+    
+    #header  .timer{
+        font-size: 50px;
+        
+        font-weight: 700;
+        font-style: oblique;
+        color:chocolate;
+    }
+    
+    
+    #header .live{
+        border: 1px solid red;
+        background-color: rgb(118, 71, 71);
+        padding: 7px 220px;}
+  
+  
+        .instruc{
+          margin: 0% auto;
+        }
+  
+        .alert-container {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-color: rgba(0, 0, 0, 0.5);
+          z-index: 9999;
+          visibility: hidden;
+        }
+    
+        /* CSS for the alert box */
+        .alert-box {
+          background-color: white;
+          padding: 20px;
+          border-radius: 5px;
+          text-align: center;
+        }
+    
+        /* CSS for the alert message */
+        .alert-message {
+          font-size: 18px;
+          margin-bottom: 20px;
+        }
+    
+        /* CSS for the alert button */
+        .alert-button {
+          background-color: #4CAF50;
+          color: white;
+          border: none;
+          padding: 10px 20px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          cursor: pointer;
+          border-radius: 5px;
+        }
